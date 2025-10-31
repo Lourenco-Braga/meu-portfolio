@@ -1,0 +1,19 @@
+#memes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 80px 64px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-inline: none;
+}
+
+#memes h2 {
+    font-size: 40px;
+}
+
+#memes p {
+    font-size: 16px;
+    color: #BDBDBD;
+    font-weight: 300;;
+}
