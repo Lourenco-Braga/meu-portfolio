@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: red;
+}
+
