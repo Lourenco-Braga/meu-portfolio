@@ -1,0 +1,96 @@
+
+#about {
+    background-color: #121212;
+    padding-block: 62px 82px;
+}
+
+#about h2 {
+    text-align: center;
+    
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+#about h2::after {
+    content: "";
+    display: block;
+    width: 120px;              
+    height: 4px;               
+    background-color: #b71c1c; 
+    margin: 14px auto 0;       
+    border-radius: 999px;      
+}
+
+#about .grid-geral {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 320px 48px minmax(420px, 1fr);
+    grid-template-rows: auto auto;
+    grid-template-areas:
+    "perfil . texto"
+    "perfil . lista";
+    align-items: start;
+}
+
+#about .perfil {
+    grid-area: perfil;
+}
+
+#about .perfil img {
+    border-radius: 50%;
+    outline: 3px solid #b71c1c;
+    grid-area: perfil;
+    width: 300px;      
+    height: 300px;     
+    transform: translateY(24px);
+}
+
+#about .texto {
+    grid-area: texto;
+}
+
+#about .texto p {   
+    line-height: 1.6;
+    padding: 16px 24px;
+    border-radius: 8px;
+    color: #f1f1f1;
+}
+
+#about ul {
+    grid-area: lista;
+    list-style: none;
+    padding: 24px 0 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(220px, 1fr));
+    gap: 18px 36px;
+}
+
+#about ul li {
+    display: grid;
+    grid-template-columns: 32px 1fr;
+    align-items: center;
+    gap: 12px;
+    opacity: 0.9;
+}
+
+#about .icon img {
+    width: 26px;
+    height: 26px;
+}
+
+#about strong {
+    display: block;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#about small {
+    display: block;
+    opacity: 0.7;
+}
+
+
+
