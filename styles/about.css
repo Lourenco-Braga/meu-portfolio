@@ -47,6 +47,7 @@
 
 #about .texto {
     grid-area: texto;
+    font-size: 18px;
 }
 
 #about .texto p {   
