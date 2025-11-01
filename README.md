@@ -18,7 +18,7 @@
 <ul>
   <li>Estruturação de páginas com HTML semântico</li>
   <li>Estilização com Flexbox e Grid</li>
-  <li>Design limpo e responsivo</li>
+  <li>Design limpo e responsivo(vi alguns arquivos sobre como usar @media)</li>
   <li>Organização de arquivos e boas práticas de código</li>
 </ul>
 
