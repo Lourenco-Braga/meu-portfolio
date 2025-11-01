@@ -1,0 +1,124 @@
+#projects {
+    background-color: #121212;
+    color: #f2f2f2;
+    padding: 72px 24px 96px;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+#projects h2::after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 3px;
+    background-color: #b71c1c;
+    margin: 14px auto 0;
+    border-radius: 999px;
+}
+
+#projects p {
+    opacity: 0.8;
+    margin-bottom: 48px;
+}
+
+.projects-grid {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 32px;
+}
+
+.project-card {
+    background-color: black;
+    border: 1px solid #2a2a2a;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.6);
+}
+
+.project-card:hover {
+    border-color: #b71c1c;
+    box-shadow: 0 0 12px rgba(183, 28, 28, 0.8);
+    transform: translateY(-6px);
+}
+
+.project-card img {
+    width: 100%;
+    height: 180px; 
+    object-fit: cover; 
+    display: block;
+    object-position: top;
+}
+
+.project-info {
+    padding: 20px;
+    text-align: left;
+    flex: 1;
+}
+
+.project-info h3 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.project-info p {
+    color: #ccc;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.tags span {
+    color: #b71c1c;
+    border: 1px solid #b71c1c;
+    font-size: 13px;
+    padding: 3px 8px;
+    border-radius: 6px;
+}
+
+.btn img {
+    width: 22px;
+    height: 22px;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #b71c1c;
+    border: 1px solid #b71c1c;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #b71c1c;
+    color: #fff;  
+}
+
+.btn:hover img {
+    filter: brightness(0) invert(1);
+}
