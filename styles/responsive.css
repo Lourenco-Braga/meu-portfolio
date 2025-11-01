@@ -1,41 +1,132 @@
 
 
 @media (max-width: 1100px) {
-  .flex { padding: 14px 32px; }
-  #hero { height: 680px; }
-  #hero h1 { font-size: 54px; }
-  #hero p { font-size: 18px; }
-  #about .grid-geral { grid-template-columns: 260px 32px minmax(360px, 1fr); }
-  #about .perfil img { width: 260px; height: 260px; transform: translateY(16px); }
-  .skills-grid { gap: 24px; }
-  .projects-grid { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
-  .project-card img { height: 170px; }
-  .contatos { gap: 28px; }
+  .flex { 
+    padding: 14px 32px; 
+  }
+
+  #hero { 
+    height: 680px; 
+  }
+
+  #hero h1 { 
+    font-size: 54px; 
+  }
+
+  #hero p { 
+    font-size: 18px; 
+  }
+
+  #about .grid-geral { 
+    grid-template-columns: 260px 32px minmax(360px, 1fr); 
+  }
+
+  #about .perfil img { 
+    width: 260px; 
+    height: 260px; 
+    transform: translateY(16px);
+  }
+
+  .skills-grid { 
+    gap: 24px; 
+  }
+
+  .projects-grid { 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  }
+
+  .project-card img { 
+    height: 170px; 
+  }
+
+  .contatos { 
+    gap: 28px; 
+  }
 }
 
 @media (max-width: 768px) {
-  .flex { padding: 12px 20px; }
-  .flex-span { gap: 16px; }
-  strong { font-size: 20px; }
-  a { font-size: 16px; }
-  #hero { height: auto; padding: 64px 16px 72px; }
-  #hero h1 { font-size: 42px; line-height: 1.2; }
-  #hero p { font-size: 16px; }
-  #hero .n-1, #hero .n-2 { padding: 16px 22px; margin: 18px 6px; }
-  #memes { padding: 48px 16px; gap: 16px; justify-content: center; flex-wrap: wrap; }
-  #memes > div { min-width: 220px; }
-  #about { padding: 48px 16px 64px; }
-  #about h2 { margin-bottom: 36px; font-size: 32px; }
+  .flex { 
+    padding: 12px 20px; 
+  }
+
+  .flex-span { 
+    gap: 16px; 
+  }
+
+  strong { 
+    font-size: 20px; 
+  }
+
+  a { 
+    font-size: 16px; 
+  }
+
+  #hero { 
+    height: auto; 
+    padding: 64px 16px 72px; 
+  }
+
+  #hero h1 { 
+    font-size: 42px; 
+    line-height: 1.2; 
+  }
+
+  #hero p { 
+    font-size: 16px; 
+  }
+
+  #hero .n-1, #hero .n-2 { 
+    padding: 16px 22px; 
+    margin: 18px 6px; 
+  }
+
+  #memes { 
+    padding: 48px 16px; 
+    gap: 16px; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+  }
+
+  #memes > div { 
+    min-width: 220px; 
+  }
+
+  #about { 
+    padding: 48px 16px 64px; 
+  }
+
+  #about h2 { 
+    margin-bottom: 36px; 
+    font-size: 32px; 
+  }
+
   #about .grid-geral {
     grid-template-columns: 1fr;
     grid-template-areas: "perfil" "texto" "lista";
     row-gap: 24px;
     justify-items: center;
   }
-  #about .perfil { justify-self: center; }
-  #about .perfil img { width: 220px; height: 220px; transform: none; outline-width: 3px; }
-  #about .texto { font-size: 16px; }
-  #about .texto p { padding: 14px 16px; text-align: left; }
+
+  #about .perfil { 
+    justify-self: center; 
+  }
+
+  #about .perfil img { 
+    width: 220px; 
+    height: 220px; 
+    transform: none; 
+    outline-width: 3px; 
+  }
+
+  #about .texto { 
+    font-size: 16px; 
+  }
+
+  #about .texto p { 
+    padding: 14px 16px; 
+    text-align: left; 
+  }
+
   #about ul {
     margin-left: 0;
     grid-template-columns: 1fr;
@@ -43,21 +134,74 @@
     width: 100%;
     max-width: 560px;
   }
-  #skills { padding: 56px 16px 72px; }
-  #skills h2 { font-size: 32px; margin-bottom: 28px; }
-  .skills-grid { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
-  .skill { padding: 24px 18px; }
-  #projects { padding: 56px 16px 72px; }
-  #projects h2 { font-size: 32px; }
-  #projects p { margin-bottom: 28px; }
-  .projects-grid { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
-  .project-card img { height: 160px; }
-  .project-info h3 { font-size: 20px; }
-  #contact { padding: 56px 16px 72px; }
-  #contact h2 { font-size: 32px; }
-  .contatos { gap: 16px; flex-wrap: wrap; max-width: 720px; margin: 28px auto 0; }
-  .contato-card { width: 48%; min-width: 260px; margin: 0 auto; }
-  footer { padding-block: 24px 48px; }
+
+  #skills { 
+    padding: 56px 16px 72px; 
+  }
+
+  #skills h2 { 
+    font-size: 32px; 
+    margin-bottom: 28px; 
+  }
+
+  .skills-grid { 
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
+    gap: 20px; 
+  }
+
+  .skill { 
+    padding: 24px 18px; 
+  }
+
+  #projects { 
+    padding: 56px 16px 72px; 
+  }
+
+  #projects h2 { 
+    font-size: 32px; 
+  }
+
+  #projects p { 
+    margin-bottom: 28px; 
+  }
+
+  .projects-grid { 
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    gap: 24px; 
+  }
+
+  .project-card img { 
+    height: 160px; 
+  }
+
+  .project-info h3 { 
+    font-size: 20px; 
+  }
+
+  #contact { 
+    padding: 56px 16px 72px; 
+  }
+
+  #contact h2 { 
+    font-size: 32px; 
+  }
+
+  .contatos { 
+    gap: 16px; 
+    flex-wrap: wrap; 
+    max-width: 720px; 
+    margin: 28px auto 0;
+   }
+
+  .contato-card { 
+    width: 48%; 
+    min-width: 260px; 
+    margin: 0 auto; 
+  }
+
+  footer { 
+    padding-block: 24px 48px; 
+  }
 }
 
 @media (max-width: 480px) {
